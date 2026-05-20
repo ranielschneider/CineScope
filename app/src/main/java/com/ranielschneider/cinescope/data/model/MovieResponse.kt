@@ -1,8 +1,8 @@
 package com.ranielschneider.cinescope.data.model
 
 data class MovieResponse(
-    val page: Int,
-    val results: List<Movie>,
-    val total_pages: Int,
-    val total_results: Int
+    val page: Int? = null,
+    val results: List<Movie>? = null,
+    val total_pages: Int? = null,
+    val total_results: Int? = null
 )
